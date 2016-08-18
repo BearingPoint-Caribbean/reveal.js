@@ -16,7 +16,7 @@ body {
   background-color: #fff; }
 
 .reveal {
-  font-family: "fsalbertregular", sans-serif;
+  font-family: Calibri, "fsalbertregular", sans-serif;
   font-size: 38px;
   font-weight: normal;
   color: #4d4f53; }
@@ -306,6 +306,17 @@ body {
   z-index: 10;
   overflow: hidden;
   text-indent: -999em; }
+
+.reveal .btn-icon {
+  margin-right: .5em;
+  display: inline-block; }
+  .reveal .btn-icon img {
+    border: 0;
+    background: transparent;
+    box-shadow: none; }
+  .reveal .btn-icon:hover img {
+    transform: scale(1.2);
+    box-shadow: none; }
 
 .reveal:after {
   width: 100%;
