@@ -4,10 +4,17 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>BearingPoint Caribbean</title>
+
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="/manifest.json">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d52b1e">
+		<meta name="theme-color" content="#ffffff">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/bearingpoint.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,9 +31,24 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-background-color="#f6f5ef">
+					<h1>Demo Presentation</h1>
+					<h3>Based on Reveal.js</h3>
+				</section>
+				<section>
+					<h2>Slide 2</h2>
+					<ul>
+						<li>un</li>
+						<li>ordered</li>
+						<li>list</li>
+					</ul>
+				</section>
+				<section data-background="#f6f5ef">
+					<h2>Get in touch</h2>
+					<p>Speak to your regional brand manager to find out more about our brand.</p>
+				</section>
 			</div>
+			<a href="http://www.bearingpointcaribbean.com/" class="logo" target="_blank">BearingPoint Caribbean</a>
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
@@ -36,6 +58,7 @@
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				history: true,
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
